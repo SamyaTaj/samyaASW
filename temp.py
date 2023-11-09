@@ -25,7 +25,7 @@ class CalculatorTest(unittest.TestCase):
 
     def test_subtract(self):
         # Intentionally make this test fail by providing incorrect expected value
-        self.assertEqual(10, self.calc.subtract(13, 3), "Subtraction is wrong")
+        self.assertEqual(10, self.calc.subtract(10, 3), "Subtraction is wrong")
 
     def test_multiply(self):
         self.assertEqual(30, self.calc.multiply(5, 6), "Multiplication is wrong")
